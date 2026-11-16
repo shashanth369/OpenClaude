@@ -1,0 +1,27 @@
+{
+  "name": "openclaude",
+  "version": "1.0.0",
+  "private": true,
+  "description": "OpenClaude — a multi-provider AI harness with a Claude-style experience: chat, artifacts, cowork (multi-agent), projects, and one-click free model access across OpenRouter, Google Gemini, Groq and Airforce.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.7.0",
+    "@supabase/supabase-js": "^2.49.0",
+    "lucide-react": "^0.511.0",
+    "next": "^15.3.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "typescript": "^5.8.3"
+  }
+}
